@@ -16,7 +16,7 @@ export default function App() {
     });
   }, []);
   return (
-    <div className="w-full text-neutral flex flex-col container-font scroll-smooth ">
+    <div className="w-full text-neutral bg-slate-50 flex flex-col container-font scroll-smooth ">
       <Navbar />
       <Header />
       <About />
