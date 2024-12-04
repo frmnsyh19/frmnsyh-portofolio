@@ -27,8 +27,10 @@ const Project = () => {
               Sistem Informasi Penyewaan Wedding Organizer
             </p>
             <p className="text-lg text-gray-400">
-              Booking a wedding organizer website and information about the
-              wedding organizer H. Sanwani
+              This website is designed to simplify the management of wedding
+              organizer rental services for both service providers and
+              customers. The system supports features such as service search,
+              package booking, and event schedule management.
             </p>
             <div className="w-full mt-2 flex gap-3">
               <img src="/skill_image/laravel.png" alt="" className="w-6" />
@@ -53,10 +55,10 @@ const Project = () => {
               Sistem Kasir & Stok Barang
             </p>
             <p className="text-lg text-gray-400">
-              A system designed to assist and enhance transaction processes
-              while making data more dynamic in tracking the inflow and outflow
-              of goods. This application is built using MongoDB, Express.js,
-              React.js, and Node.js (MERN).
+              This website is designed to assist in managing sales transactions
+              and inventory efficiently. The application combines cashier
+              functionality, inventory management, and financial reporting into
+              a responsive and user-friendly web-based platform.
             </p>
             <div className="w-full mt-2 flex gap-2">
               <img src="/skill_image/mongodb.png" alt="" className="w-8" />
@@ -72,24 +74,22 @@ const Project = () => {
           className="w-80 p-2 rounded-lg flex flex-col justify-start shadow-xl border"
           id="cardproject"
           data-aos="zoom-in-up">
-          <img
-            src="/project/New_Pota-removebg-preview.png"
-            className="w-full"
-            alt=""
-          />
+          <img src="/project/rajabtour.png" className="w-full" alt="" />
           <div className="w-full gap-1 flex flex-col p-2">
             <p className="text-lg lg:text-xl font-bold capitalize">
-              Portofolio
+              Tour & Travel
             </p>
             <p className="text-lg text-gray-400">
-              {` This is a personal portfolio
-              project that describes me.
-              Contains a little about me, and
-              some of the projects I've made.`}
+              This real project website was designed for a travel agency client
+              to facilitate tourists in searching, selecting, and booking travel
+              packages according to their needs. With a modern and responsive
+              design, the website provides an intuitive and user-friendly
+              experience across various devices.
             </p>
             <div className="w-full mt-2 flex gap-2">
-              <img src="/skill_image/react.png" alt="" className="w-8" />
+              <img src="/skill_image/laravel.png" alt="" className="w-6" />
               <img src="/skill_image/tailwind.png" alt="" className="w-8" />
+              <img src="/skill_image/mysqllogo.png" alt="" className="w-8" />
             </div>
           </div>
         </div>
