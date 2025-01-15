@@ -33,7 +33,7 @@ const Navbar = () => {
               <div
                 tabIndex="0"
                 role="button"
-                className="btn btn-ghost rounded-btn ms-4 border shadow-xl">
+                className="btn btn-ghost rounded-btn ms-4 ">
                 <FontAwesomeIcon icon={faBarsStaggered} />
               </div>
               <ul
