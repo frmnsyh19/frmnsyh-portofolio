@@ -96,25 +96,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div
-          className="w-80 p-2 h-[32rem] rounded-lg flex flex-col justify-between shadow-xl border"
-          id="cardproject"
-          data-aos="zoom-in-up">
-          <div className="w-full gap-1 flex flex-col p-2">
-            <img src="/project/lifeport.png" className="w-full" alt="" />
-            <p className="text-lg lg:text-xl font-bold capitalize">LifePort</p>
-            <p className="text-lg text-gray-400">
-              This project is the development of a news portal website for a
-              client, aimed at delivering the latest information to users. The
-              portal features various news categories such as health, sports,
-              technology, and food, catering to readers with diverse interests.
-            </p>
-          </div>
-          <div className="w-full mt-2 flex gap-2 p-2">
-            <img src="/skill_image/nextjs.png" alt="" className="w-8" />
-            <img src="/skill_image/tailwind.png" alt="" className="w-8" />
-          </div>
-        </div>
+
         <div
           className="w-80 p-2 h-[32rem] rounded-lg flex flex-col justify-between shadow-xl border"
           id="cardproject"
@@ -136,6 +118,58 @@ const Project = () => {
             <img src="/skill_image/tailwind.png" alt="" className="w-9 h-8" />
             <img src="/skill_image/postgresql.png" alt="" className=" w-8" />
             <img src="/skill_image/firebase.png" alt="" className="w-8 h-8" />
+          </div>
+        </div>
+        <div
+          className="w-80 p-2 h-[32rem] rounded-lg flex flex-col justify-between shadow-xl border"
+          id="cardproject"
+          data-aos="zoom-in-up">
+          <div className="w-full gap-1 flex flex-col p-2">
+            <img src="/project/lifeport.png" className="w-full" alt="" />
+            <p className="text-lg lg:text-xl font-bold capitalize">LifePort</p>
+            <p className="text-lg text-gray-400">
+              This project is the development of a news portal website for a
+              client, aimed at delivering the latest information to users. The
+              portal features various news categories such as health, sports,
+              technology, and food, catering to readers with diverse interests.
+            </p>
+          </div>
+          <div className="w-full mt-2 flex justify-between items-center p-2">
+            <div className=" flex gap-2">
+              <img src="/skill_image/nextjs.png" alt="" className=" w-8 h-8" />
+              <img src="/skill_image/tailwind.png" alt="" className="w-9 h-8" />
+            </div>
+            <a
+              href="https://life-port.vercel.app/"
+              className=" btn btn-neutral text-base">
+              Demo
+            </a>
+          </div>
+        </div>
+        <div
+          className="w-80 p-2 h-[32rem] rounded-lg flex flex-col justify-between shadow-xl border"
+          id="cardproject"
+          data-aos="zoom-in-up">
+          <div className="w-full gap-1 flex flex-col p-2">
+            <img src="/project/alquranproject.png" className="w-full" alt="" />
+            <p className="text-lg lg:text-xl font-bold capitalize">
+              Al-Quran Website
+            </p>
+            <p className="text-lg text-gray-400">
+              {`Designed and developed an interactive Al-Qur'an website using Next.js and Tailwind CSS. 
+              This website provides a responsive and user-friendly interface, allowing users to read and search for Al-Qur'an verses with ease.`}
+            </p>
+          </div>
+          <div className="w-full mt-2 flex justify-between items-center p-2">
+            <div className=" flex gap-2">
+              <img src="/skill_image/nextjs.png" alt="" className=" w-8 h-8" />
+              <img src="/skill_image/tailwind.png" alt="" className="w-9 h-8" />
+            </div>
+            <a
+              href="https://al-quran-qu.vercel.app/"
+              className=" btn btn-neutral text-base">
+              Demo
+            </a>
           </div>
         </div>
       </div>
